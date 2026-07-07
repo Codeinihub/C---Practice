@@ -4,32 +4,32 @@ int main(){
     char op;
     int num1;
     int num2;
-    std::cout << "Pick an operation (+, -, /, *)" << "\n";
+
+    std::cout << "Pick an operation (+, -, /, *)" << std::endl;
     std::cin >> op;
-    std::cout << op << "\n";
-    std::cout << "Pick a number: " << "\n";
+    
+    std::cout << "Pick a number: " << std::endl;
     std::cin >> num1;
-    std::cout << num1 << "\n";
-    std::cout << "Pick a second number: " << "\n";
+    
+    std::cout << "Pick a second number: " << std::endl;
     std::cin >> num2;
-    std::cout << num1 << "\n";
 
 
     switch(op){
         case '+': 
-            std::cout << "Result: " << num1 + num2 << "\n";
+            std::cout << "Result: " << num1 + num2 << std::endl;
             break;
         case '-':
-            std::cout << "Result: " << num1 - num2 << "\n";
+            std::cout << "Result: " << num1 - num2 << std::endl;
             break;
         case '/': 
-            std::cout << "Result: " << num1 / num2 << "\n";
+            std::cout << "Result: " << num1 / num2 << std::endl;
             break;
         case '*': 
-            std::cout << "Result: " << num1 + num2 << "\n";
+            std::cout << "Result: " << num1 * num2 << std::endl;
             break;
         default:
-            std::cout << "Invalid Response!! ";
+            std::cout << "Invalid Response!! " << std::endl;
     }
     return 0;
 }
