@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.focusAfterRun": "none",
+    "terminal.integrated.commandsToSkipShell": [
+        ""
+    ]
+}
