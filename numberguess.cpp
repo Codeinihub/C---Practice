@@ -19,4 +19,5 @@ int main(){
     }while(guess != num);
     std::cout << "Correct!" << '\n';
     std::cout << "Tries: " << tries << '\n';
+    return 0;
 }
