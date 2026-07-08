@@ -6,10 +6,10 @@ double withDraw(double balance);
 double showMoney(double balance);
 
 int main(){
-    char choice;
+    int choice;
     srand(time(NULL));
     do{
-        int balance = (rand()%100) + 1;
+        int balance = 100;
         std::cout << "What would you like to do today (type a number): " << '\n';
         std::cout << "1. Deposit money" << '\n';
         std::cout << "2. Withdraw money" << '\n';
@@ -29,7 +29,10 @@ int main(){
                 std::cout << "You have: " << "$" << showMoney(balance) << '\n';
                 break;
             case 4:
-                "Have a nice day! ";
+                std::cout << "Have a nice day! " << '\n';
+                break;
+            default:
+                std::cout << "Invalid Choice! " << '\n';
                 break;
         }
     }while(choice != 4);
