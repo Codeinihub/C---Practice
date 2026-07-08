@@ -23,4 +23,5 @@ int main(){
             std::cout << (temp - 32)/1.8 << " Celsius" << "\n";
             break;
     }
+    return 0;
 }
