@@ -16,6 +16,10 @@ int main(){
         std::cout << "3. Show balance" << '\n';
         std::cout << "4. Exit" << '\n';
         std::cin >> choice;
+        
+        std::cin.clear();
+        fflush(stdin);
+
         switch(choice){
             case 1:
                 balance += deposit();
